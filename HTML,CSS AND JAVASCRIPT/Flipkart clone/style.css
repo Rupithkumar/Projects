@@ -594,7 +594,7 @@ input[type="text" i] {
     font-size: 25px;
     font-weight: bold;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 .bt{
@@ -692,4 +692,294 @@ input[type="text" i] {
     text-align: center;
     background-color: white;
     margin-top: 10px;
+}
+.s{
+    height: 200px;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.s1{
+    height: 200px;
+    width:450px;
+    background-image: url(s1.png);
+    background-size: cover;
+}
+.s2{
+    height:200px;
+    width: 450px;
+    background-image: url(s2.png);
+    background-size: cover;
+}
+.s3{
+    height:200px;
+    width:450px;
+    background-image: url(s3.png);
+    background-size: cover;
+}
+.top_deals{
+    height: 290px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.info{
+    height: auto;
+    width: auto;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.redtape{
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    background-color: white;
+    margin-top: 30px;
+}
+.rimg{
+    height: 186.4px;
+    width: auto;
+    background-image: url(reatape.png);
+    background-size: cover;
+}
+.redinfo{
+    text-align: center;
+    padding-top: 20px;
+}
+.s_shoes{
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    background-color: white;
+    margin-top: 30px;
+}
+.sshimg{
+    height: 186.4px;
+    width: auto;
+    background-image: url(shoes.jpg);
+    background-size: cover;
+}
+.sshinfo{
+    text-align: center;
+    padding-top: 20px;
+}
+.shirt{
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    background-color: white;
+    margin-top: 30px;
+}
+.shirtimg{
+    height: 186.4px;
+    width: auto;
+    background-image: url(shirt1.jpg);
+    background-size: cover;
+}
+.shirtinfo{
+    text-align: center;
+    padding-top: 20px;
+}
+.pants{
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    background-color: white;
+    margin-top: 30px;
+}
+.pants_img{
+    height: 186.4px;
+    width: auto;
+    background-image: url(oant.jpg);
+    background-size: cover;
+}
+.pant_info{
+    text-align: center;
+    padding-top: 20px;
+}
+.glasses{
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    background-color: white;
+    margin-top: 30px;
+}
+.glass_img{
+    height: 186.4px;
+    width: auto;
+    background-image: url(glasses.jpg);
+    background-size: cover;
+}
+.glass_info{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    height: 200px;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.s4{
+    height: 200px;
+    width:450px;
+    background-image: url(s4.png);
+    background-size: cover;
+}
+.s5{
+    height:200px;
+    width: 450px;
+    background-image: url(s6.png);
+    background-size: cover;
+}
+.s6{
+    height:200px;
+    width:450px;
+    background-image: url(s6.png);
+    background-size: cover;
+}
+.box1{
+    height: 200px;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.s7{
+    height: 200px;
+    width:450px;
+    background-image: url(s7.png);
+    background-size: cover;
+}
+.s8{
+    height:200px;
+    width: 450px;
+    background-image: url(s8.png);
+    background-size: cover;
+}
+.s9{
+    height:200px;
+    width:450px;
+    background-image: url(s9.png);
+    background-size: cover;
+}
+.box2{
+    height: 200px;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.s10{
+    height: 200px;
+    width:450px;
+    background-image: url(s10.png);
+    background-size: cover;
+}
+.s11{
+    height:200px;
+    width: 450px;
+    background-image: url(s11.png);
+    background-size: cover;
+}
+.s12{
+    height:200px;
+    width:450px;
+    background-image: url(s12.png);
+    background-size: cover;
+}
+.box3{
+    height: 200px;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.s13{
+    height: 200px;
+    width:450px;
+    background-image: url(s13.png);
+    background-size: cover;
+}
+.s14{
+    height:200px;
+    width: 450px;
+    background-image: url(s14.png);
+    background-size: cover;
+}
+.s15{
+    height:200px;
+    width:450px;
+    background-image: url(s15.png);
+    background-size: cover;
+}
+.f1{
+    height:400px;
+    width: 100%;
+    background-image: url(f1.png);
+    background-size: cover;
+    margin-top: 10px;
+}
+.f2{
+    height:400px;
+    width: 100%;
+    background-image: url(f2.png);
+    background-size: cover;
+    z-index: 3;
+    margin-top: -8px;
+}
+.f3{
+    height:400px;
+    width: 100%;
+    background-image: url(f3.png);
+    background-size: cover;
+    z-index: 3;
+    margin-top: -8px;
+}
+.end{
+    height:410px;
+    width: 100%;
+    background-image: url(footer.png);
+    background-size: cover;
+    z-index: 3;
+    margin-top: -42px;
+}
+.extra{
+    height: 1px;
+    width: 100%;
+    background-color:black;
 }
