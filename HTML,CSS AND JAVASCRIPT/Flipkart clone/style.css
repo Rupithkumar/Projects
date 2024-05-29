@@ -983,3 +983,6 @@ input[type="text" i] {
     width: 100%;
     background-color:black;
 }
+div:hover{
+    cursor: pointer;
+}

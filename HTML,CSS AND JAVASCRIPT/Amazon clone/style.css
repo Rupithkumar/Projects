@@ -1,0 +1,778 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.navi{
+    height: 80px;
+    width: 100%;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navi_logo{
+    height: 60px;
+    width: 120px;
+    margin-left: 3px;
+    padding: 0px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    border: 1px sloid #0F1111;
+    border-radius: 0.5rem;
+}
+.border:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.location{
+    height: 60px;
+    width: 215px;
+    
+    border: 1px solid #0F1111;
+    border-radius: 0.5rem;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-top:10px;
+    margin-left: 5pxpx;
+}
+
+.search{
+    height: 40px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+
+}
+.all{
+    height: 40px;
+    width: 55px;
+    align-content: center;
+    background-color: rgb(233, 230, 230);
+    border-radius: 0.2rem;
+    padding-left: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.bar{
+    height: 40px;
+    width: 500px;
+    background-color:white;
+    margin-left: -3px;
+    align-content: center;
+    font-size: larger;
+    padding-left: 10px;
+    
+}
+.slogo{
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    align-content: center;
+    padding-left: 10px;
+    font-size: larger;
+    border-radius: 0.2rem;
+}
+.flag{
+    height: 40px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 0.2rem;
+}
+.img{
+    height: 20px;
+    width: 20px;
+    background-image: url(IND\ flag.png) ;
+    background-size: cover;
+    margin-right: 3px;
+
+}
+.img_c{
+    color: white;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+.account{
+    color: white;
+    border-radius: 0.2rem;
+}
+.signin{
+    font-weight: lighter;
+    font-size: small;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+.ac{
+    font-weight: bold;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+.returns{
+    color: white;
+    border-radius: 0.2rem;
+}
+.return{
+    font-size: small;
+    font-weight: lighter;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+.orders{
+    font-weight: bold;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+.cart{
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 0.2rem;
+}
+.img_cart{
+    margin-right: 3px;
+    font-size: 25px;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+.cart_content{
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+.all_items{
+    height: 40px;
+    background-color: #446161;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.all_bar{
+    height: 25px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 0.2rem;
+}
+.bar_img{
+    height: 20px;
+    width: fit-content;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 8px;
+    padding-right: 5px;
+}
+.al_cont{
+    height: 20px;
+    width: fit-content;
+    color: white;
+    font: 20px;
+    margin-bottom: 8px;
+}
+.fresh{
+    height: 25px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 0.2rem;
+}
+.fresh_cont{
+    height: 20px;
+    width: fit-content;
+    color: white;
+    font: 25px;
+    margin-bottom: 8px;
+}
+.d_arrow{
+    height: 20px;
+    width: fit-content;
+    color:rgb(193, 193, 193);
+    margin-bottom: 8px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.amt{
+    height: 25px;
+    width: 130px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.sell{
+    height: 25px;
+    width: 40px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.best_sellers{
+    height: 25px;
+    width: 100px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.mobiles{
+    height: 25px;
+    width: 70px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.td{
+    height: 25px;
+    width: 100px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.el{
+    height: 25px;
+    width: 86px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.prime{
+      height: 25px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 0.2rem;
+}
+.prime_ct{
+    height: 20px;
+    width: fit-content;
+    color: white;
+    font: 25px;
+    margin-bottom: 8px;
+}
+.prime_arrow{
+    height: 20px;
+    width: fit-content;
+    color:rgb(193, 193, 193);
+    margin-bottom: 8px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.cs{
+    height: 25px;
+    width: 125px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.fa_ct{
+    height: 25px;
+    width: 60px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.hk{
+    height: 25px;
+    width: 125px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.nr{
+    height: 25px;
+    width: 100px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.ap{
+    height: 25px;
+    width: 90px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.cp{
+    height: 25px;
+    width: 80px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.gi{
+    height: 25px;
+    width: 80px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+.bk{
+    height: 25px;
+    width: 60px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+body{
+    background-color:black;
+}
+.body{
+    height: 1000px;
+    width: 100%;
+    background-image: url('body.jpg');
+    background-size:cover ;
+}
+.appliances{
+    height: 450px;
+    width: 370px;
+    background-color: white;
+    z-index: 3;
+    margin-top: -500px;
+    margin-left: 20px;
+    border-radius: 0.2rem;
+}
+.cont{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.img1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img_ac{
+    height: 100px;
+    width: 150px;
+    background-image: url('ac.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#ac_ct{
+    
+    margin-top: 5px;
+    
+}
+.img_frid{
+    height: 100px;
+    width: 150px;
+    background-image: url('fridge.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#fr_ct{
+    margin-top: 5px;
+    
+}
+.img2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.oven_img{
+    height: 100px;
+    width: 150px;
+    background-image: url('oven.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+.oven_ct{
+    margin-top: 5px;
+}
+.wash_img{
+    height: 100px;
+    width: 150px;
+    background-image: url('washing\ machine.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+.wash_ct{
+    margin-top: 5px;
+}
+.home_style{
+    height: 450px;
+    width: 370px;
+    background-color: white;
+    z-index: 3;
+    margin-top: -382px;
+    margin-left: 400px;
+    border-radius: 0.2rem;
+}
+.img3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img_seat{
+    height: 100px;
+    width: 150px;
+    background-image: url('cusion.jpg');
+    background-size: cover;
+    margin-top: 40px;
+   
+}
+#cover_ct{
+    width: 150px;
+    margin-top: 5px;
+}
+.figures_img{
+    height: 100px;
+    width: 150px;
+    background-image: url('figures.jpg');
+    background-size: cover;
+    margin-top: 40px;
+}
+#figure_ct{
+    margin-top: 5px
+}
+.img4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.img_home{
+    height: 100px;
+    width: 150px;
+    background-image: url('home\ storage.jpg');
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+#home_ct{
+    margin-top: 5px;
+}
+.img_light{
+    height: 100px;
+    width: 150px;
+    background-image: url('light.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#light_ct{
+    margin: 5px;
+}
+.pointer:hover{
+    cursor: pointer;
+}
+.offer{
+    height: 450px;
+    width: 370px;
+    background-color: white;
+    z-index: 3;
+    margin-top: -450px;
+    margin-left: 820px;
+    border-radius: 0.2rem;
+}
+.img5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -25px;
+}
+.img_vase{
+    height: 100px;
+    width: 150px;
+    background-image: url('start\ 179.jpg');
+    background-size: cover;
+    margin-top: 40px;
+}
+#vase_ct{
+    width: 150px;
+    margin-top: 5px;
+}
+.img_racks{
+    height: 100px;
+    width: 150px;
+    background-image: url('racks.jpg');
+    background-size: cover;
+    margin-top: 40px;
+}
+#rack_ct{
+    width: 150px;
+    margin-top: 5px;
+}
+.img6{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.img_teddy{
+    height: 100px;
+    width: 150px;
+    background-image: url('teddy.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#teddy_ct{
+    width: 150px;
+    margin-top: 5px;
+}
+.img_jacket{
+    height: 100px;
+    width: 150px;
+    background-image: url('jacket.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#jacket_ct{
+    width: 150px;
+    margin-top: 5px;
+}
+.signin_best{
+    height: 180px;
+    width: 300px;
+    background-color: white;
+    margin-left: 1210px;
+    margin-top: -450px;
+    border-radius: 0.2rem;
+}
+#best_sign{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-top: 15px;
+    
+}
+.signbutton{
+    height: 30px;
+    width: 200px;
+    background-color: orange;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 45px;
+    border-radius: 1rem;
+    padding-top: 10px;
+}
+.purse{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 1210px;
+    border-radius: 0.2rem;
+}
+.img_purse{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    background-image: url(purse.jpg);
+    background-size: contain;
+}
+#purse_ct{
+    text-align: center;
+
+}
+.women{
+    height: 450px;
+    width: 370px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 0.2rem;
+}
+.img7{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.img_wc{
+    height: 100px;
+    width: 150px;
+    background-image: url('women\ clothing.jpg');
+    background-size: cover;
+    margin-top: 40px;
+}
+#wc_ct{
+    margin-top: 5px;
+}
+.img_wf{
+    height: 100px;
+    width: 150px;
+    background-image: url('women\ footware.jpg');
+    background-size: cover;
+    margin-top: 40px;
+}
+#wf_ct{
+    margin-top: 5px;
+}
+.img8{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.img_ww{
+    height: 100px;
+    width: 150px;
+    background-image: url('women\ watches.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#ww_ct{
+    margin-top: 5px;
+}
+.img_wj{
+    height: 100px;
+    width: 150px;
+    background-image: url('women\ jewellery.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#wf_ct{
+    margin-top: 5px;
+}
+.decor{
+    height: 450px;
+    width: 370px;
+    background-color: white;
+    z-index: 3;
+    margin-top: -450px;
+    margin-left: 420px;
+    border-radius: 0.2rem;
+}
+.img9{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -15px;
+   
+}
+.img_bd{
+    height: 100px;
+    width: 150px;
+    background-image: url('bedsheet.jpg');
+    background-size: cover;
+    margin-top: 40px;
+}
+#bd_ct{
+    margin-top: 5px;
+    width: 150px;
+}
+.img_cr{
+    height: 100px;
+    width: 150px;
+    background-image: url('curtain.jpg');
+    background-size: cover;
+    margin-top: 40px;
+}
+#cr_ct{
+    margin-top: 5px;
+    width: 150px;
+}
+.img10{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.img_it{
+    height: 100px;
+    width: 150px;
+    background-image: url('ironing\ board.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#it_ct{
+    margin-top: 5px;
+    width: 150px;
+}
+.img_de{
+    height: 100px;
+    width: 150px;
+    background-image: url('start\ 179.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#de_ct{
+    margin-top: 5px;
+    width: 150px;
+}
+.tools{
+    height: 450px;
+    width: 370px;
+    background-color: white;
+    z-index: 3;
+    margin-top: -450px;
+    margin-left: 820px;
+    border-radius: 0.2rem;
+}
+.img11{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -15px;
+}
+.img_ptm{
+    height: 100px;
+    width: 150px;
+    background-image: url('power\ tools.jpg');
+    background-size: cover;
+    margin-top: 40px;
+}
+#ptm_ct{
+    margin-top: 5px;
+}
+.img_mi{
+    height: 100px;
+    width: 150px;
+    background-image: url('mesuaring\ ins.jpg');
+    background-size: cover;
+    margin-top: 40px;
+}
+#mi_ct{
+    margin-top: 5px;
+}
+.img12{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.img_cleans{
+    height: 100px;
+    width: 150px;
+    background-image: url('cleaning\ supplies.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#cleans_ct{
+    margin-top: 5px;
+}
+.img_md{
+    height: 100px;
+    width: 150px;
+    background-image: url('medical\ supplies.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+#md_ct{
+    margin-top: 5px;
+}
