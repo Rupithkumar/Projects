@@ -1213,6 +1213,7 @@ body.dark ::-moz-selection {
         margin: 0;
     }
     .name {
+        margin-top: 70px;
         font-size: 40px;
     }
     .custom-cursor {
