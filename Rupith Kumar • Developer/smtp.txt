@@ -1,0 +1,5 @@
+ Host : "smtp.elasticemail.com",
+        Username : "rupithkumarn@gmail.com",
+        Password : "E08D3E68BEAD95D3B65F936A84628282AFA7",
+        To : 'rupithkumarn@gmail.com',
+        From : "rupithkumarn@gmail.com",
